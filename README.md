@@ -27,7 +27,12 @@ Please request access to our Docker image:
 2. For plotting CDF-CCT figures:
    - Switch to Python 3.x environment
 
+## Predictive Model Training
+The following command will read in saved simulation results (by default `results/process_result.txt`) and save the results plots to your designated folder (by default `modeling_results`)
 
+```bash
+python modeling.py
+```
 
 ## Acknowledgments
 This project builds upon the HPCC project by Alibaba. Original repository: [HPCC](https://github.com/alibaba-edu/High-Precision-Congestion-Control)
